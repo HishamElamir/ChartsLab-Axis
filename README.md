@@ -25,3 +25,12 @@ Axis
   .Draw();
 ```
 The micro library API gives you alot of functionality to manipulate the components type and style and values as easy as possible
+
+![ChartsLab-Axis](/Images/AxisOne.JPG)
+
+
+<a name="Axis" href="#axis">#</a> d3.<b>Axis</b>(<i>canvasContext</i>)
+
+Constructs a new axis generator object for the given with ready for drawing with defaults
+ [Tick number](#TickNumber), [Inner tick number](#InnerTickNumber) is equals to 3, [Tick label padding](#TickLabelPadding)
+
