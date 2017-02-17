@@ -29,8 +29,33 @@ The micro library API gives you alot of functionality to manipulate the componen
 ![ChartsLab-Axis](/Images/AxisOne.JPG)
 
 
-<a name="Axis" href="#axis">#</a> d3.<b>Axis</b>(<i>canvasContext</i>)
+<a name="Axis" href="#axis">#</a> ChartsLab.<b>Axis</b>(<i>canvasContext</i>)
 
-Constructs a new axis generator object for the given with ready for drawing with defaults
- [Tick number](#TickNumber), [Inner tick number](#InnerTickNumber) is equals to 3, [Tick label padding](#TickLabelPadding)
+Constructs a new axis generator object for the given with ready for drawing in the given canvas context with defaults
+ [Tick number](#TickNumber) is equals to 10, [Inner tick number](#InnerTickNumber) equals to 3, [Tick label padding](#TickLabelPadding) equals to 25, [Outer tick size](#OuterTickSize) equals to 5, [Inner tick size](#InnerTickSize) equals to 15, [Axis width](#AxisWidth) equals to 2, [Tick width](#TickWidth) equals to 2, and auto  [TickFormat](#TickFormat)
+ 
+<a name="Position" href="#position">#</a> Axis.<b>Position</b>(<i>[StartPoint Array], [EndPoint Array]</i>)
+ 
+<a name="Side" href="#side">#</a> Axis.<b>Side</b>(<i>side String</i>)
+ 
+<a name="AxisLabel" href="#axisLabel">#</a> Axis.<b>Label</b>(<i>text String</i>)
+ 
+<a name="AxisWidth" href="#axisWidth">#</a> Axis.<b>AxisWidth</b>(<i>size Number</i>)
+
+<a name="AxisScale" href="#axisScale">#</a> Axis.<b>Scale</b>(<i>scale Function</i>)
+
+<a name="TickWidth" href="#TickWidth">#</a> Axis.<b>TickWdith</b>(<i>width Number</i>)
+
+<a name="TickPadding" href="#TickPadding">#</a> Axis.<b>TickPadding</b>(<i>padding Number</i>)
+
+<a name="TickNumber" href="#TickNumber">#</a> Axis.<b>TickNumber</b>(<i>tickNumber Number</i>)
+
+<a name="InnerTickNumber" href="#InnerTickNumber">#</a> Axis.<b>InnerTickNumber</b>(<i>innerTickNumber Number</i>)
+
+<a name="OuterTickSize" href="#OuterTickSize">#</a> Axis.<b>OuterTickSize</b>(<i>size Number</i>)
+
+<a name="InnerTickSize" href="#InnerTickSize">#</a> Axis.<b>InnerTickSize</b>(<i>size Number</i>)
+
+<a name="DashedTick" href="#DashedTick">#</a> Axis.<b>DashedTick</b>(<i>flag Boolean</i>)
+
 
