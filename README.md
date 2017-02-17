@@ -34,6 +34,8 @@ The micro library API gives you alot of functionality to manipulate the componen
 Constructs a new axis generator object for the given with ready for drawing in the given canvas context with defaults
  [Tick number](#TickNumber) is equals to 10, [Inner tick number](#InnerTickNumber) equals to 3, [Tick label padding](#TickLabelPadding) equals to 25, [Outer tick size](#OuterTickSize) equals to 5, [Inner tick size](#InnerTickSize) equals to 15, [Axis width](#AxisWidth) equals to 2, [Tick width](#TickWidth) equals to 2, and auto  [TickFormat](#TickFormat)
  
+ ![ChartsLab-Axis](/Images/AxisTwo.JPG)
+ 
 <a name="Position" href="#position">#</a> Axis.<b>Position</b>(<i>[StartPoint Array], [EndPoint Array]</i>)
  
 <a name="Side" href="#side">#</a> Axis.<b>Side</b>(<i>side String</i>)
